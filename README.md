@@ -15,18 +15,27 @@ This project predicts **disease stage (1–3)** using a neural network and estim
 ---
 
 ## 📂 Project Structure
-
-├── dashboard/                 # React frontend
-│   └── liver\_cirrhosis\_diagnosis/
-│       ├── public/
-│       ├── src/
-│       └── package.json
-├── server/                    # Flask backend
-│   ├── server.py              # Main backend script
-│   ├── models/                # Trained ML/DL models
-│   ├── data/                  # Dataset
-│   └── requirements.txt
-├── README.md
+```bash
+liver_cirrhosis/
+├── dashboard/
+│ └── liver_cirrhosis_diagnosis/
+│ ├── public/
+│ ├── src/
+│ ├── package.json
+├── data/
+│ └── liver_cirrhosis.csv
+├── models/
+│ ├── liver_cirrhosis_cox.pkl
+│ └── liver_cirrhosis_stage_predictor.h5
+├── server/
+│ ├── build/
+│ ├── requirements.txt
+│ └── server.py
+├── trainer/
+│ ├── liver_cirrhosis_predictor.py
+│ └── liver_cirrhosis_trainer.py
+└── README.md
+```
 
 ---
 
