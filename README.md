@@ -41,6 +41,14 @@ liver_cirrhosis/
 
 ## 🚀 Getting Started
 
+### Prepare Dataset
+
+The dataset must include the following columns:
+
+```
+N_Days,Status,Drug,Age,Sex,Ascites,Hepatomegaly,Spiders,Edema,Bilirubin,Cholesterol,Albumin,Copper,Alk_Phos,SGOT,Tryglicerides,Platelets,Prothrombin,Stage
+```
+
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/SudoRV/Liver-Cirrhosis-Stage-Predictor.git
